@@ -1,0 +1,44 @@
+# Kubernetes kubeconfigs und lokale Konfigurationen
+.kube/
+.kubeconfig
+*.kubeconfig
+
+# Helm-Values-Dateien mit sensiblen Werten
+values-private.yaml
+*.secret.yaml
+*.private.yaml
+
+# dotenv-Dateien (für API-Keys, Webhooks etc.)
+.env
+*.env
+
+# SSH- und Zertifikatsdateien
+*.pem
+*.key
+*.crt
+
+# Logdateien
+*.log
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# macOS-Systemdateien
+.DS_Store
+
+# Editor- und IDE-Konfigurationen
+.vscode/
+.idea/
+
+# temporäre Arbeitsdateien
+tmp/
+temp/
+*.bak
+*.swp
+*.swo
