@@ -21,8 +21,8 @@ This project implements an intelligent Kubernetes monitoring solution using Prom
 ## 📌 Project Roadmap
 
 - [x] 📈 Phase 1: Monitoring stack deployment via Helm
-- [ ] 📊 Phase 2: Prometheus API querying and anomaly detection
-- [ ] 🔧 Phase 3: Auto-healing integration with Ansible
+- [x] 📊 Phase 2: Prometheus API querying and anomaly detection
+- [x] 🔧 Phase 3: Auto-healing integration with Ansible
 - [ ] 📡 Phase 4: Notification system and Grafana dashboard
 - [ ] 📑 Phase 5: Documentation, visuals, and final polishing
 
