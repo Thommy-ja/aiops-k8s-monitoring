@@ -1,0 +1,10 @@
+- name: Restart a Kubernetes Pod
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Delete the target Pod
+      ansible.builtin.shell: "kubectl delete pod {{ pod_name }} -n monitoring"
+      ignore_errors: yes
+
